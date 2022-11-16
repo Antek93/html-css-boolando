@@ -7,7 +7,8 @@
 }
 
 .container-principale {
-    background-color: lightgray;
+    margin-top: 0px;
+
     
 }
 
@@ -23,7 +24,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 
 }
 
 /* INIZIO HEADER  */
@@ -34,6 +34,8 @@
     position: fixed;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 0px;
 
 }
 .header-container > .container-flex-c > ol > li {
@@ -45,7 +47,7 @@
 .header-container > .container-flex-c > ol > li > a {
     text-decoration: none;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     font-size: 15px;
 
