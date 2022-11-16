@@ -175,6 +175,21 @@
     left: 13%;
 }
 
+/* Switch immagini  */
+
+.immagine-b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.grandezza:hover > .immagine-a {
+    visibility: hidden;
+    cursor: pointer;
+}
+
+
 /* Attributi Footer */
 
 
@@ -214,6 +229,3 @@ h4 {
     margin-left: 0px;
     margin-right: 10px;
 }
-
-
-
