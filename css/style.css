@@ -38,6 +38,7 @@
     width: 100%;
     background-color: #ff6900;
     position: fixed;
+    z-index: 9;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 30px;
@@ -81,6 +82,8 @@
 
 .grandezza {
     width: calc((100% / 3) - 20px);
+    position: relative;
+    
 } 
 
 .central {
@@ -91,3 +94,75 @@
 .top-margin {
     margin-top: 150px;
 }
+
+/* Attributi testo modelli */
+
+.marca {
+   font-size: medium;
+}
+
+.modello {
+   font-size: large;
+   font-weight: bold;
+}
+
+.prezzo-scontato {
+   color: red;
+   font-weight: bold;
+}
+
+.prezzo-intero {
+   color: rgba(173, 172, 172, 0.844);
+   text-decoration: line-through;
+}
+
+/* Attributi modelli non-fissi  */
+
+.heart-black {
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    background-color: white;
+    top: 3%;
+    right: 0;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+
+}
+
+
+.heart-black:hover {
+    color: red;
+    position: absolute;
+    font-size: 30px;
+    background-color: white;
+    top: 3%;
+    right: 0;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+
+}
+
+.etichetta-r {
+    color: white;
+    font-weight: medium;
+    background-color: red;
+    padding: 3px 10px 3px 10px;
+    margin-right: 5px;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+
+}
+
+.etichetta-v {
+    color: white;
+    font-weight: medium;
+    background-color:green;
+    padding: 3px 10px 3px 10px;
+    position: absolute;
+    bottom: 15%;
+    left: 13%;
+}
+
+
