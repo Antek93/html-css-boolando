@@ -48,6 +48,7 @@
 
 .dimension {
     width: 1400px;
+    margin: 0px auto;
 }
 
 .header-container > .dimension > .container-flex-c > ol > li {
@@ -73,6 +74,12 @@
 /* FINE HEADER  */
 
 /* INIZIO MAIN  */
+
+.main-container {
+    width: 1400px;
+    margin: 0px auto;
+
+} 
 
 .img-container {
    padding-top: 100px;
